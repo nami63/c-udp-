@@ -20,7 +20,7 @@ struct Data {
 int main() {
     int sockfd = socket(AF_INET, SOCK_DGRAM, 0);
     if (sockfd < 0) {
-        cerr << "Error creating socket" << endl;
+        cerr<< "Error creating socket"<< endl;
         return 1;
     }
     struct sockaddr_in addr;
