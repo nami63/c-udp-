@@ -38,7 +38,7 @@ int main() {
 
     sendto(sockfd, (const char*)&data, sizeof(data), 0, (struct sockaddr*)&addr, sizeof(addr));
 
-    cout << "Data sent successfully." << endl;
+    cout<<"Data sent successfully."<<endl;
 
     close(sockfd);
 
